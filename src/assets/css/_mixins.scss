@@ -1,0 +1,30 @@
+/* 设置单或多个边框样式 */
+@mixin border($dir, $width, $style, $color) {
+  border: 0 $style $color;
+
+  @each $d in $dir {
+    #{border-#{$d}-width}: $width;
+  }
+}
+
+/* 设置iconfont字体 */
+@mixin iconFont($icon, $size: 48px, $fontSize: 36px, $color: #bbb) {
+  position: relative;
+  display: inline-block;
+  width: $size;
+  height: $size;
+
+  &::after {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "iconfont", sans-serif;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: $icon;
+    font-size: $fontSize;
+    color: $color;
+  }
+}

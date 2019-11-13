@@ -1,0 +1,9 @@
+{
+  "extends": "stylelint-config-booheefe",
+  "rules": {
+    "selector-type-no-unknown": [true, {
+      "ignoreTypes": ["page", "navigator", "view", "text", "scroll-view"]
+    }],
+    "unit-case": null
+  }
+}

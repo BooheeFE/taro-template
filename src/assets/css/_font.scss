@@ -1,0 +1,18 @@
+$fontFamily: PingFang-SC, "San Francisco", "Source Sans", Rotobo,
+  "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB",
+  "Heiti SC", sans-serif;
+
+@font-face {
+  font-family: "iconfont"; /* project id 1122394 */
+  src: url("https://at.alicdn.com/t/font_1122394_0q3q3vm6haj.eot");
+  src:
+    url("https://at.alicdn.com/t/font_1122394_0q3q3vm6haj.eot?#iefix")
+    format("embedded-opentype"),
+    url("https://at.alicdn.com/t/font_1122394_0q3q3vm6haj.woff2")
+    format("woff2"),
+    url("https://at.alicdn.com/t/font_1122394_0q3q3vm6haj.woff") format("woff"),
+    url("https://at.alicdn.com/t/font_1122394_0q3q3vm6haj.ttf")
+    format("truetype"),
+    url("https://at.alicdn.com/t/font_1122394_0q3q3vm6haj.svg#iconfont")
+    format("svg");
+}
